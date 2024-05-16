@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-page{
+    display: grid;
+    grid-template-columns: 0.6fr 3fr;
+    position: relative;
+}
+.grid-main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.playlist-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.discover_grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.scroll{
+    display: grid;
+    grid-template-columns: auto;
+}
+.library{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 30px 10px 10px 30px;
+    gap: 20px;
+}
+.user-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+}

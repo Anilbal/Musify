@@ -1,0 +1,132 @@
+
+
+/* below 1200px  */
+@media screen and (width<1450px) {
+    .grid-main{
+        grid-template-columns: auto;
+    }
+    .discover_grid{
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+/* below 1350px  */
+@media screen and (width<1350px) {
+  .discover_grid{
+        grid-template-columns: auto auto auto;
+    }
+}
+
+/* below 1080px  */
+@media screen and (width<1080px) {
+      .song_card{
+        margin-top: 10px;
+      }
+  }
+
+  /* tablet responsive for discover page */
+
+  @media screen and (width<1024px) {
+    .main-page{
+        grid-template-columns: auto;
+        /* position: relative; */
+    }
+    
+}
+
+@media screen and (width<=860px) {
+     .discover_grid{
+        grid-template-columns: auto auto ;
+         margin-left: 50px;
+    }
+    .song_card{
+      margin-top: 5px;
+    }
+}
+@media screen and (width<640px) {
+    .discover_grid{
+        /* grid-template-columns: auto  ; */
+         margin-left: 30px;
+    }
+}
+@media screen and (width<615px) {
+    .discover_grid{
+        grid-template-columns: auto  ;
+         /* margin-left: 60px; */
+         place-items: center;
+    }
+}
+
+@media screen and (width<350px) {
+    .discover_grid{
+         margin-left: 10px;
+    }
+}
+
+/* !library */
+@media screen and (width<=1225px) {
+    .library{
+        grid-template-columns: auto auto;
+        margin-left: 30px;
+        gap: 30px;
+    }
+}
+@media screen and (width<=750px) {
+    .library{
+        grid-template-columns: auto auto;
+        /* margin-left: 30px; */
+        /* gap: 30px; */
+        place-items: center;
+    }
+}
+@media screen and (width<=600px) {
+    .library{
+        grid-template-columns: auto ;
+        margin-left: 10px;
+        /* gap: 30px; */
+        place-items: center;
+    }
+}
+
+
+/*! user profile */
+@media screen and (width<=1450px) {
+    .user-grid{
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media screen and (width<=1230px) {
+    .playlist-grid{
+        grid-template-columns: auto auto;
+        gap: 20px;
+        margin-left: 20px;
+    }
+    .user-grid{
+        grid-template-columns: auto auto auto;
+    }
+}
+@media screen and (width<760px) {
+    .playlist-grid{
+        grid-template-columns: auto;
+        gap: 20px;
+        margin-left: 20px;
+        place-items: center;
+    }
+    .user-grid{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (width<600px) {
+
+    .user-grid{
+        grid-template-columns: auto ;
+        place-items: center;
+    }
+    .playlist-grid{
+        /* grid-template-columns: auto; */
+        gap: 20px;
+        margin-left: 10px;
+        /* place-items: center; */
+    }
+}
